@@ -3,48 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_6eb98dd941eab24c6d3a5067cc4db32dafda2976.jar" />
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_31673238a1e02854311d2bdd8b40debcaef3ba60.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_15ed25a546f6d69ea84bd07c5d51cbd84449fbd8.jar" />
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_16db17efbadd0034010df8c63027da7b36ca81a6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_26c0d3ff9f6a4633806f0f831b71df9f923b2e5b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_33d221441e98d6c824d7360c8a5f15e402979ca7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/test/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/test-react-native-vector-icons-unspecified_b70fea2321abdfb6f7feee6a7b25198b477c988c.jar" />
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_dc13bc49f0a89d73518c595024fb5f94357df328.jar" />
     </item>
     <item
         is-multidex="false"
@@ -54,24 +36,6 @@
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_55455345e44736e6ab4ddaf321964cee8521affc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_fa072e3013d0f158916a818537c0e0d467453a83.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_53ac2165655080d14eed8aa7b256b6854d76fe6a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,30 +57,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_27bb0f161adc5646fa5e469b40754ed19e09d1af.jar" />
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_79c8c87ed69d00407e0a1704c42e4ec4f1784b9a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_c77535bbabd6beb8e7e161d60f1b335c51ad8583.jar" />
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_5592e819e28b8efb663ac633cb6024afbf786141.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_e94d2dacc019cd579fffe49c5472dc9e57f975b6.jar" />
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_d1f99ecd3581ab16d407e08d2973f39b7e8c842c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -132,27 +96,27 @@
         jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_deef73e5780cdd3d98ededb1aa8bf3ba400e8a20.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/sasaya_h/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_14b3e3719825071e27cbb3b5326eff524bb0f5fd.jar" />
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_80db5ac762db9539fabc3f70c505cb3b2cbc4126.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_ffbfcf816736d4cb887f70b9a508b3cd218a6087.jar" />
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_5f4edcc8b17f0ae11446280ab43bab869d01cb28.jar" />
     </item>
     <item
         is-multidex="false"
@@ -162,6 +126,114 @@
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
         <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_d1f99ecd3581ab16d407e08d2973f39b7e8c842c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_79c8c87ed69d00407e0a1704c42e4ec4f1784b9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_6b500f9329036b76cf758284168ce0738bc7a923.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_26c0d3ff9f6a4633806f0f831b71df9f923b2e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_9adc4c7bb3d6c330f9ca58a014814a546a01a6d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_c9b836a55b4dcb36881fe03feef4fb012456b588.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_7fb84bed0f6c41474f03d21f1b47d88cd4d61f16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_cb3abe68837eb28a6de8b53dea35524dbc6f290c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_96f60f88b5e60c76eb0daa15bc50cddd478b571d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_deef73e5780cdd3d98ededb1aa8bf3ba400e8a20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_da1156f8bea72146877203234795841d898e503f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_35c013e4a791a792d1efbe485682ab90ffd092c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_2bb6e29668dafa5ebf80df522df7d860de484b3e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,21 +255,237 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_55455345e44736e6ab4ddaf321964cee8521affc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_ffa1b70b03349c466f27956544a211bb10f78b19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/test/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/test-react-native-vector-icons-unspecified_b70fea2321abdfb6f7feee6a7b25198b477c988c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_33d221441e98d6c824d7360c8a5f15e402979ca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/test/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/test-react-native-vector-icons-unspecified_b70fea2321abdfb6f7feee6a7b25198b477c988c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_33d221441e98d6c824d7360c8a5f15e402979ca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_fa072e3013d0f158916a818537c0e0d467453a83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_fa072e3013d0f158916a818537c0e0d467453a83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_ffbfcf816736d4cb887f70b9a508b3cd218a6087.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_e76b7e447984af65fbf28180fe5742aede41c20d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_ffbfcf816736d4cb887f70b9a508b3cd218a6087.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_26c0d3ff9f6a4633806f0f831b71df9f923b2e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_3ab93afc782540e5f7e1235fd4a023e45857c111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_a35c24e4c39a4c30c5d7203ff4162b2d219303c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_53ac2165655080d14eed8aa7b256b6854d76fe6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_27bb0f161adc5646fa5e469b40754ed19e09d1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_53ac2165655080d14eed8aa7b256b6854d76fe6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_7fa455435260dd9839501d95d5e6751ff352dfec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_e94d2dacc019cd579fffe49c5472dc9e57f975b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_27bb0f161adc5646fa5e469b40754ed19e09d1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_e94d2dacc019cd579fffe49c5472dc9e57f975b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_4cbb275d3b062de4be88934729bdc0724ef78847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_c00122920f4f1f55e9e590f2a04a8795084c15dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_f935a0e1c1c8603e3cc84b6b09f1f0e4d31a82b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/test/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="74be7ebb802ada91dc0b346fb68c95e0be8e101a">
+        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/test-react-native-navigation-unspecified_9a7faf453ab7025f031f6b6cb3a1d09227e59ccd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
         <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_4cbb275d3b062de4be88934729bdc0724ef78847.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_79c8c87ed69d00407e0a1704c42e4ec4f1784b9a.jar" />
     </item>
 
 </items>

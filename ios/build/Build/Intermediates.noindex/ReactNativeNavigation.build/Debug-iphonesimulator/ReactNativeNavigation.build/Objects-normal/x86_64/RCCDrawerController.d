@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.m \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMExampleDrawerVisualStateManager.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerVisualState.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerHelper.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/RCCManagerModule.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/ios/UIViewController+Rotation.h
