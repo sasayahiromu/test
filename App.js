@@ -13,7 +13,7 @@ const store = configureStore();
 Navigation.registerComponent("awsome-places.AuthScreen", () => AuthScreen, store, Provider);
 Navigation.registerComponent("awsome-places.SharePlaceScreen", () => SharePlaceScreen, store, Provider);
 Navigation.registerComponent("awsome-places.FindPlaceScreen", () => FindPlaceScreen, store, Provider);
-Navigation.registerComponent("awsome-places.PlaceDetailScreen", () => PlaceDetailScreen);
+Navigation.registerComponent("awsome-places.PlaceDetailScreen", () => PlaceDetailScreen, store, Provider);
 
 
 Navigation.startSingleScreenApp({
