@@ -18,7 +18,7 @@ import backgroundImage from "../../assets/background.jpg";
 
 class AuthScreen extends Component {
     state = {
-        viewMode: Dimensions.get("window").height > 500 ? "portrait" : "landscape"
+        viewMode: Dimensions.get("window").height > 500 ? "portrait" : "landscape",
     };
 
     constructor(props) {
@@ -32,7 +32,7 @@ class AuthScreen extends Component {
 
     updateStyles = (dims) => {
         this.setState({
-            viewMode: dims.height > 500 ? "portrait" : "landscape"
+            viewMode: dims.screen.height > 500 ? "portrait" : "landscape"
         });
     }
 
