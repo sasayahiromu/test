@@ -1,4 +1,4 @@
-#Sat May 19 01:15:25 JST 2018
+#Thu May 24 18:27:26 JST 2018
 base.0=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
