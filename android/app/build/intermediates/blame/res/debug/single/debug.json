@@ -1432,6 +1432,10 @@
         "source": "/Users/sasaya_h/Desktop/react/test/node_modules/react-native-navigation/android/app/build/intermediates/packaged_res/debug/drawable-mdpi-v4/ic_action_name.png"
     },
     {
+        "merged": "/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/sasaya_h/Desktop/react/test/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/xml/provider_paths.xml"
+    },
+    {
         "merged": "/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
         "source": "/Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d7258a17ff577fd485dd90a35d6515c9/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -2210,6 +2214,10 @@
     {
         "merged": "/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d7258a17ff577fd485dd90a35d6515c9/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/sasaya_h/Desktop/react/test/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/layout/list_item.xml"
     },
     {
         "merged": "/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",

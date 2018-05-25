@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri May 25 15:32:57 JST 2018
+#Fri May 25 16:46:36 JST 2018
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libicu_common.so
 25.base=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

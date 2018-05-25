@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Let&apos;s take a photo.</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string></string>
+	</array>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>You want to share your image, right?</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
 	<key>NSLocationUsageDescription</key>
 	<string>Let&apos;s share space</string>
 	<key>CFBundleGetInfoString</key>
