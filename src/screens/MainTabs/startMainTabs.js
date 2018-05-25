@@ -11,7 +11,7 @@ const startTabs = () => {
       Navigation.startTabBasedApp({
         tabs: [
           {
-            screen: "awsome-places.FindPlaceScreen",
+            screen: "awesome-places.FindPlaceScreen",
             label: "Find Place",
             title: "Find Place",
             icon: sources[0],
@@ -24,7 +24,7 @@ const startTabs = () => {
             }
           },
           {
-            screen: "awsome-places.SharePlaceScreen",
+            screen: "awesome-places.SharePlaceScreen",
             label: "Share Place",
             title: "Share Place",
             icon: sources[1],
@@ -45,7 +45,7 @@ const startTabs = () => {
         },
         drawer:{
           left: {
-            screen: "awsome-places.SideDrawer"
+            screen: "awesome-places.SideDrawer"
           }
         }
       });      
