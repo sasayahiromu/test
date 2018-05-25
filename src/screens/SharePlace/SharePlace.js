@@ -17,14 +17,18 @@ class SharePlaceScreen extends Component {
 
   state = {
     controls: {
-    placeName: {
-      value: "",
-      valid: false,
-      touched: false,
-      validationRules: {
-        notEmpty: true
+      placeName: {
+        value: "",
+        valid: false,
+        touched: false,
+        validationRules: {
+          notEmpty: true
+        }
+      },
+      location: {
+        value: null,
+        valid: false
       }
-    }
     }
   };
   constructor(props) {
@@ -42,7 +46,7 @@ class SharePlaceScreen extends Component {
     }
   };
 
-  placeNameChangedHandler = val =>{
+  placeNameChangedHandler = val => {
     this.setState(prevState => {
       return {
         controls: {
@@ -58,10 +62,26 @@ class SharePlaceScreen extends Component {
     });
   }
 
+  locationPickHandler = location => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          location: {
+            value: location,
+            valid: true
+          }
+  
+        },
+      }
+    })
+  }
+
   placeAddedHandler = () => {
-    if(this.state.controls.placeName.value.trim() !== ""){
-      this.props.onAddPlace(this.state.controls.placeName.value);
-    }
+      this.props.onAddPlace(
+        this.state.controls.placeName.value, 
+        this.state.controls.location.value
+      );
   }
 
   render() {
@@ -72,15 +92,15 @@ class SharePlaceScreen extends Component {
             <HeadingText>Share a Place with us!</HeadingText>
           </MainText>
           <PickImage />
-          <PickLocation />
-          <PlaceInput 
-          placeData={this.state.controls.placeName}
-          onChangeText={this.placeNameChangedHandler}/>
+          <PickLocation onLocationPick={this.locationPickHandler} />
+          <PlaceInput
+            placeData={this.state.controls.placeName}
+            onChangeText={this.placeNameChangedHandler} />
           <View style={styles.button}>
-            <Button 
-            title="Share the Place" 
-            onPress={this.placeAddedHandler}
-            disabled={!this.state.controls.placeName.valid}/>
+            <Button
+              title="Share the Place"
+              onPress={this.placeAddedHandler}
+              disabled={!this.state.controls.placeName.valid || !this.state.controls.location.valid} />
           </View>
         </View>
       </ScrollView>
@@ -111,7 +131,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName) => dispatch(addPlace(placeName))
+    onAddPlace: (placeName, location) => dispatch(addPlace(placeName, location))
   };
 };
 
