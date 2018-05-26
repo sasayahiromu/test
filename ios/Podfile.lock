@@ -15,12 +15,12 @@ PODS:
     - FirebaseAnalytics (= 5.0.0)
   - Firebase/CoreOnly (5.0.1):
     - FirebaseCore (= 5.0.1)
-  - Firebase/Database (5.0.1):
-    - Firebase/CoreOnly
-    - FirebaseDatabase (= 5.0.0)
   - Firebase/Firestore (5.0.1):
     - Firebase/CoreOnly
     - FirebaseFirestore (= 0.12.1)
+  - Firebase/Storage (5.0.1):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.0)
   - FirebaseAnalytics (5.0.0):
     - FirebaseCore (~> 5.0)
     - FirebaseInstanceID (~> 3.0)
@@ -31,9 +31,6 @@ PODS:
     - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (5.0.1):
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-  - FirebaseDatabase (5.0.0):
-    - FirebaseCore (~> 5.0)
-    - leveldb-library (~> 1.18)
   - FirebaseFirestore (0.12.1):
     - FirebaseCore (~> 5.0)
     - FirebaseFirestore/abseil-cpp (= 0.12.1)
@@ -47,6 +44,9 @@ PODS:
     - Protobuf (~> 3.1)
   - FirebaseInstanceID (3.0.0):
     - FirebaseCore (~> 5.0)
+  - FirebaseStorage (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
   - Folly (2016.09.26.00):
     - boost-for-react-native
     - DoubleConversion
@@ -162,8 +162,8 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Firebase/Auth
   - Firebase/Core
-  - Firebase/Database
   - Firebase/Firestore
+  - Firebase/Storage
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - Google-Maps-iOS-Utils
@@ -193,9 +193,9 @@ SPEC REPOS:
     - FirebaseAnalytics
     - FirebaseAuth
     - FirebaseCore
-    - FirebaseDatabase
     - FirebaseFirestore
     - FirebaseInstanceID
+    - FirebaseStorage
     - Google-Maps-iOS-Utils
     - GoogleMaps
     - GoogleToolboxForMac
@@ -232,9 +232,9 @@ SPEC CHECKSUMS:
   FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
   FirebaseAuth: acbeef02fe7c3a26624e309849f3fe30c84115af
   FirebaseCore: cafc814b2d84fc8733f09e653041cc2165332ad7
-  FirebaseDatabase: 697eb53e5b4fe7cd4fa8756c1f82a9fca011345f
   FirebaseFirestore: f686b8e83f3cf8bbc37db6e98e01029a14f01f55
   FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  FirebaseStorage: 7ca4bb7b58a25fa647b04f524033fc7cb7eb272b
   Folly: 211775e49d8da0ca658aebc8eab89d642935755c
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
@@ -253,6 +253,6 @@ SPEC CHECKSUMS:
   react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: 7ae9718defc45a34e2069a140d75facf6ea2de75
+PODFILE CHECKSUM: cd0d13ba56dceca61855723a41abaad5c1aa2717
 
 COCOAPODS: 1.5.2
