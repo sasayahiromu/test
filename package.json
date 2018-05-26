@@ -21,6 +21,7 @@
     "react": "16.3.2",
     "react-native": "~0.55.2",
     "react-native-firebase": "^4.2.0",
+    "react-native-gifted-chat": "^0.4.3",
     "react-native-image-picker": "^0.26.10",
     "react-native-maps": "^0.21.0",
     "react-native-navigation": "^1.1.462",

@@ -1,0 +1,3 @@
+# Referenced at /Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:40
+-keep class com.test.MainApplication { <init>(...); }
+

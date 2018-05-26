@@ -1,4 +1,10 @@
-#Fri May 25 16:46:36 JST 2018
-base.0=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Sun May 27 00:21:18 JST 2018
+path.2=classes3.dex
+path.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.1=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.0=/Users/sasaya_h/Desktop/react/test/android/app/build/intermediates/transforms/dexMerger/debug/0
