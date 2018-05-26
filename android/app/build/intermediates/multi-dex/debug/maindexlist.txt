@@ -318,6 +318,7 @@ com/google/firebase/firestore/IgnoreExtraProperties.class
 com/google/firebase/firestore/PropertyName.class
 com/google/firebase/firestore/ServerTimestamp.class
 com/google/firebase/firestore/ThrowOnExtraProperties.class
+com/google/firebase/storage/StorageException$ErrorCode.class
 com/google/protobuf/ExperimentalApi.class
 com/imagepicker/ImagePickerPackage.class
 com/oblador/vectoricons/VectorIconsPackage.class
@@ -343,6 +344,7 @@ io/grpc/internal/ServerTransport.class
 io/grpc/internal/WithLogId.class
 io/invertase/firebase/RNFirebasePackage.class
 io/invertase/firebase/firestore/RNFirebaseFirestorePackage.class
+io/invertase/firebase/storage/RNFirebaseStoragePackage.class
 io/opencensus/common/ExperimentalApi.class
 io/opencensus/common/Internal.class
 javax/annotation/CheckForNull.class
