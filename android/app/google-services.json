@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "271456056396",
+    "firebase_url": "https://rn-course-1527219559369.firebaseio.com",
+    "project_id": "rn-course-1527219559369",
+    "storage_bucket": "rn-course-1527219559369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271456056396:android:645513aecbf91738",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271456056396-1eo53efhjqodokojud1b0nd7hhsdoae1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "271456056396-1eo53efhjqodokojud1b0nd7hhsdoae1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnczxxuSUAu7LzBEl-pzDNo1M9e34Mf6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
