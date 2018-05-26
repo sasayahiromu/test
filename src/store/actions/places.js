@@ -1,5 +1,6 @@
 import { ADD_PLACE, DELETE_PLACE } from './actionTypes';
 import firebase from 'react-native-firebase';
+import RNFS from 'react-native-fs';
 
 export const addPlace = (placeName, location, image) => {
     return dispatch => {
@@ -14,21 +15,33 @@ export const addPlace = (placeName, location, image) => {
         // .then(res => {
         //     console.log(res.id)
         // })
-        const fs = require('fs')
 
-        fs.writeFileSync("/tmp/uploaded-image.jpg", image, "base64", err => {
-            console.log(err);
-            return response.status(500).json({ error: err });
-          });
 
-        firebase
-        .storage()
-        .ref("/tmp/uploaded-image.jpg")
-        .putFile(
-          `${firebase.storage.Native.DOCUMENT_DIRECTORY_PATH}/ok.jpeg`
-        )
-        .then(res => console.log(res))
-        .catch(err => console.log(err));
+        // require the module
+
+        // create a path you want to write to
+        // :warning: on iOS, you cannot write into `RNFS.MainBundlePath`, 
+        // but `RNFS.DocumentDirectoryPath` exists on both platforms and is writable
+        const path = RNFS.DocumentDirectoryPath + "/uploaded-image.jpg";
+
+        // // write the file
+        RNFS.writeFile(path, image.base64, "base64")
+        .then((success) => {
+            console.log('write')
+            firebase
+            .storage()
+            .ref('img/hello.jpg')
+            .putFile(path)
+            .then(res => console.log(res))
+            .catch(err => console.log('ups',err));
+            })
+        .catch((err) => {
+            console.log('there is err',err.message);
+        });
+
+
+
+
         }
 };
 

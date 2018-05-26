@@ -3,6 +3,7 @@ package com.test;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnfs.RNFSPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
 import io.invertase.firebase.storage.RNFirebaseStoragePackage;
@@ -70,7 +71,9 @@ public class MainApplication extends NavigationApplication {
           new ImagePickerPackage(),
           new RNFirebasePackage(),
           new RNFirebaseFirestorePackage(),
-          new RNFirebaseStoragePackage()
+          new RNFirebaseStoragePackage(),
+          new RNFSPackage()
+
       );
   }
 

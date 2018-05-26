@@ -327,6 +327,7 @@ com/reactnativenavigation/bridge/EventEmitter.class
 com/reactnativenavigation/controllers/ActivityCallbacks.class
 com/reactnativenavigation/react/NavigationReactGateway.class
 com/reactnativenavigation/react/ReactGateway.class
+com/rnfs/RNFSPackage.class
 com/test/BuildConfig.class
 com/test/MainApplication.class
 io/grpc/ExperimentalApi.class
