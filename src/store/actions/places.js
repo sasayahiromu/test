@@ -85,8 +85,17 @@ export const setPlaces = places => {
 };
 
 export const deletePlace = (key) => {
-    return {
-        type: DELETE_PLACE,
-        placeKey: key
+    return dispatch => {
+        this.ref = firebase.firestore().collection('places');
+        this.ref.doc(key)
+            .delete()
+            .catch(err => {
+                alert("Something went wrong, sorry :/")
+                console.log(err)
+            })
+            .then(parsedRes => {
+                console.log(parsedRes)
+            })
+        dispatch(getPlaces());
     };
 };

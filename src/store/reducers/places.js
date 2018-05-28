@@ -13,13 +13,6 @@ const reducer = (state = initialState, action) => {
         ...state,
         places: action.places
       };
-    // case DELETE_PLACE:
-    //   return {
-    //     ...state,
-    //     places: state.places.filter(place => {
-    //       return place.key !== action.placeKey;
-    //     })
-    //   };
     default:
       return state;
   }
