@@ -18,6 +18,9 @@ MERGED from [com.android.support:design:25.3.1] /Users/sasaya_h/.gradle/caches/t
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/e2694e91675cf609e565ede4f8f695dd/AndroidManifest.xml:17:1-31:12
 MERGED from [:react-native-maps] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/bde5bf7bd742960dbbbec8682503217f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/a5816ec414c864bc471e588cc457bb37/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-firestore-16.0.0.aar/d4056560e9f4e3475a207e198d7c4653/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/03d97ee20f9865ec8c2ca4073482a71e/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-storage:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-storage-15.0.2.aar/73ce20b9a01dfce0cbf617ecfc7a04ee/AndroidManifest.xml:2:1-8:12
@@ -132,6 +135,10 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/sasaya_h/.gradle/ca
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/e2694e91675cf609e565ede4f8f695dd/AndroidManifest.xml:29:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/a5816ec414c864bc471e588cc457bb37/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/a5816ec414c864bc471e588cc457bb37/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/03d97ee20f9865ec8c2ca4073482a71e/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/03d97ee20f9865ec8c2ca4073482a71e/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:26:5-32:19
@@ -264,6 +271,12 @@ MERGED from [:react-native-maps] /Users/sasaya_h/Desktop/react/test/node_modules
 MERGED from [:react-native-maps] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/bde5bf7bd742960dbbbec8682503217f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/bde5bf7bd742960dbbbec8682503217f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/a5816ec414c864bc471e588cc457bb37/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-15.0.2.aar/a5816ec414c864bc471e588cc457bb37/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-firestore-16.0.0.aar/d4056560e9f4e3475a207e198d7c4653/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:16.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-firestore-16.0.0.aar/d4056560e9f4e3475a207e198d7c4653/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-core:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.2.aar/03d97ee20f9865ec8c2ca4073482a71e/AndroidManifest.xml:5:5-44
@@ -426,6 +439,34 @@ ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.g
 		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:27:9-41
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/529cfebbc94281dcd0c8a14ee92017fc/AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/c4bd83b9932323e6bbe9a32f067fc1a6/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/c4bd83b9932323e6bbe9a32f067fc1a6/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-auth-15.1.0.aar/1545c5fcb407e118f22038e07c791139/AndroidManifest.xml:33:17-109
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/4f7a7161ae70739b237888a4acab6fd8/AndroidManifest.xml:25:5-68
@@ -436,12 +477,6 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/ca
 MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/c4bd83b9932323e6bbe9a32f067fc1a6/AndroidManifest.xml:24:5-68
 	android:name
 		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:24:22-65
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/c4bd83b9932323e6bbe9a32f067fc1a6/AndroidManifest.xml:35:9-39:19
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/c4bd83b9932323e6bbe9a32f067fc1a6/AndroidManifest.xml:35:9-39:19
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:27:18-89
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-15.0.0.aar/29a34746a7f95185383bcbcccf6b15a7/AndroidManifest.xml:28:13-30:85
 	android:value

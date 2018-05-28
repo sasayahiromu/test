@@ -221,6 +221,7 @@ com/google/android/gms/common/util/DynamiteApi.class
 com/google/android/gms/common/util/RetainForClient.class
 com/google/android/gms/common/util/VisibleForTesting.class
 com/google/android/gms/common/zzg.class
+com/google/android/gms/flags/FlagSource.class
 com/google/android/gms/stats/CodePackage.class
 com/google/android/gms/stats/GCoreWakefulBroadcastReceiver.class
 com/google/android/gms/stats/WakeLock.class
@@ -313,6 +314,8 @@ com/google/errorprone/annotations/Var.class
 com/google/errorprone/annotations/concurrent/LazyInit.class
 com/google/errorprone/annotations/concurrent/LockMethod.class
 com/google/errorprone/annotations/concurrent/UnlockMethod.class
+com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
+com/google/firebase/auth/ActionCodeResult$Operation.class
 com/google/firebase/firestore/Exclude.class
 com/google/firebase/firestore/IgnoreExtraProperties.class
 com/google/firebase/firestore/PropertyName.class
@@ -345,6 +348,7 @@ io/grpc/internal/ManagedClientTransport.class
 io/grpc/internal/ServerTransport.class
 io/grpc/internal/WithLogId.class
 io/invertase/firebase/RNFirebasePackage.class
+io/invertase/firebase/auth/RNFirebaseAuthPackage.class
 io/invertase/firebase/firestore/RNFirebaseFirestorePackage.class
 io/invertase/firebase/storage/RNFirebaseStoragePackage.class
 io/opencensus/common/ExperimentalApi.class
