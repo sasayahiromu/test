@@ -4,6 +4,7 @@ ADDED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManife
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-uuid-generator] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-uuid-generator/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-fs] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:multidex:1.0.3] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/6fb47f5896a0d338319341b062126481/AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-firebase] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
@@ -235,6 +236,8 @@ uses-sdk
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sasaya_h/Desktop/react/test/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-uuid-generator] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-uuid-generator/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-uuid-generator] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-uuid-generator/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.3] /Users/sasaya_h/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/6fb47f5896a0d338319341b062126481/AndroidManifest.xml:20:5-43

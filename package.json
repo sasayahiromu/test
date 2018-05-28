@@ -26,6 +26,7 @@
     "react-native-image-picker": "^0.26.10",
     "react-native-maps": "^0.21.0",
     "react-native-navigation": "^1.1.462",
+    "react-native-uuid-generator": "^3.0.2",
     "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",

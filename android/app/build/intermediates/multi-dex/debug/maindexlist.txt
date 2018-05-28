@@ -322,6 +322,7 @@ com/google/firebase/storage/StorageException$ErrorCode.class
 com/google/protobuf/ExperimentalApi.class
 com/imagepicker/ImagePickerPackage.class
 com/oblador/vectoricons/VectorIconsPackage.class
+com/reactlibrary/RNUUIDGeneratorPackage.class
 com/reactnativenavigation/NavigationApplication.class
 com/reactnativenavigation/bridge/EventEmitter.class
 com/reactnativenavigation/controllers/ActivityCallbacks.class

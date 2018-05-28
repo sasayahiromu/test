@@ -3,6 +3,7 @@ package com.test;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactlibrary.RNUUIDGeneratorPackage;
 import com.rnfs.RNFSPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
@@ -72,8 +73,8 @@ public class MainApplication extends NavigationApplication {
           new RNFirebasePackage(),
           new RNFirebaseFirestorePackage(),
           new RNFirebaseStoragePackage(),
-          new RNFSPackage()
-
+          new RNFSPackage(),
+          new RNUUIDGeneratorPackage()
       );
   }
 
