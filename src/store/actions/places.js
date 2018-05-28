@@ -1,10 +1,12 @@
-import { ADD_PLACE, DELETE_PLACE } from './actionTypes';
+import { SET_PLACES } from './actionTypes';
 import firebase from 'react-native-firebase';
 import RNFS from 'react-native-fs';
 import UUIDGenerator from 'react-native-uuid-generator';
+import { uiStartLoading, uiStopLoading } from './index'
 
 export const addPlace = (placeName, location, image) => {
     return dispatch => {
+        dispatch(uiStartLoading());
         // create a path you want to write to
         // :warning: on iOS, you cannot write into `RNFS.MainBundlePath`, 
         // but `RNFS.DocumentDirectoryPath` exists on both platforms and is writable
@@ -30,16 +32,56 @@ export const addPlace = (placeName, location, image) => {
                         this.ref = firebase.firestore().collection('places')
                         this.ref.add(placeData)
                             .then(res => {
-                                console.log(res.id)
+                                dispatch(uiStopLoading());
+                                console.log(res.id);
                             })
-                            .catch(err => console.log(err));
+                            .catch(err => {
+                                dispatch(uiStopLoading());
+                                alert('Try again');
+                                console.log(err);
+                            });
                     })
-                    .catch(err => console.log('firebase error', err));
+                    .catch(err => {
+                        dispatch(uiStopLoading());
+                        alert('Try again');
+                        console.log(err);
+                    });
             })
-            .catch((err) => {
-                console.log('there is err', err.message);
-            });
     }
+};
+
+export const getPlaces = () => {
+    return dispatch => {
+        this.ref = firebase.firestore().collection('places');
+        this.ref
+            .get()
+            .catch(err => {
+                alert('something wrong');
+                console.log(err)
+            })
+            .then(querySnapshot => {
+                const places = [];
+                console.log(querySnapshot.docs[1])
+                for (let i in querySnapshot.docs) {
+                    value = querySnapshot.docs[i].data();
+                    places.push({
+                        ...value,
+                        image: {
+                            uri: value.image
+                        },
+                        key: querySnapshot.docs[i].id
+                    });
+                }
+                dispatch(setPlaces(places));
+            })
+    };
+};
+
+export const setPlaces = places => {
+    return {
+        type: SET_PLACES,
+        places: places
+    };
 };
 
 export const deletePlace = (key) => {
