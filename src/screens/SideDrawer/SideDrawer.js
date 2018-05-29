@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 import { View, Text, Dimensions, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons'
+import App from '../../../App'
+import firebase from 'react-native-firebase';
+
 
 class SideDrawer extends Component {
+  logOut = () => {
+    firebase.auth()
+      .signOut()
+      .then(() => App())
+        .catch(err => {
+          console.log(err);
+          alert('fail logout');
+        })
+  };
+
   render() {
     return (
       <View style={[styles.container, { width: Dimensions.get("window").width * 0.8 }]}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={this.logOut}>
           <View style={styles.drawerItem}>
             <Icon name={Platform.OS === "android" ? "md-log-out" : "ios-log-out"} size={30} color="#aaa" style={styles.drawerItemIcon} />
             <Text>Sign Out</Text>
