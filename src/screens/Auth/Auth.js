@@ -21,8 +21,11 @@ import ButtonWithBackground from "../../components/UI/ButtonWithBackground/Butto
 import backgroundImage from "../../assets/background.jpg";
 import validate from "../../utility/validation";
 import { tryAuth } from "../../store/actions/index";
+import startMainTabs from "../../screens/MainTabs/startMainTabs";
+import firebase from 'react-native-firebase';
 
 class AuthScreen extends Component {
+
   state = {
     viewMode: Dimensions.get("window").height > 500 ? "portrait" : "landscape",
     authMode: "login",
@@ -49,18 +52,37 @@ class AuthScreen extends Component {
         validationRules: {
           equalTo: "password"
         },
-        touched: false
+        touched: false,
       }
     }
   };
+
 
   constructor(props) {
     super(props);
     Dimensions.addEventListener("change", this.updateStyles);
   }
 
+  componentWillMount(){
+      this.setState({
+        checkedAuth: false,
+      });
+  }
+
+  componentDidMount() {
+    this.authSubscription = firebase.auth().onAuthStateChanged((user) => {
+      if(user) startMainTabs();
+      else{
+      this.setState({
+        checkedAuth: true
+      });
+    }
+    });
+  }
+
   componentWillUnmount() {
     Dimensions.removeEventListener("change", this.updateStyles);
+    this.authSubscription();
   }
 
   switchAuthModeHandler = () => {
@@ -131,7 +153,15 @@ class AuthScreen extends Component {
     });
   };
 
+
+
   render() {
+    // Auto logIn
+    if (!this.state.checkedAuth) {
+      return null;
+    }
+    else if(this.state.user) return null;
+
     let headingText = null;
     let confirmPasswordControl = null;
     let submitButton = (

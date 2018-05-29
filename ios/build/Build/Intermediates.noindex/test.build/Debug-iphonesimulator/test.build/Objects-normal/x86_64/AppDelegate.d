@@ -10,6 +10,17 @@ dependencies: /Users/sasaya_h/Desktop/react/test/ios/test/AppDelegate.m \
   /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
   /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
   /Users/sasaya_h/Desktop/react/test/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h \
   /Users/sasaya_h/Desktop/react/test/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap \
   /Users/sasaya_h/Desktop/react/test/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap \
   /Users/sasaya_h/Desktop/react/test/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h \

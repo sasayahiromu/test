@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/gRPC-Core/src/core/tsi/alts/crypt/aes_gcm.cc \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/support/port_platform.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/port_platform.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/gRPC-Core/src/core/tsi/alts/crypt/gsec.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/grpc.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/status.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/status.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/byte_buffer.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/byte_buffer.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/grpc_types.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/compression_types.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/gpr_types.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/slice.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/gpr_slice.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/slice_buffer.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/slice.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/support/sync.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/sync.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/sync_generic.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/atm.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/atm_gcc_atomic.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/sync_posix.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/connectivity_state.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/impl/codegen/propagation_bits.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/support/time.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/bio.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/base.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/is_boringssl.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/opensslconf.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/buffer.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/buf.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/err.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/ex_data.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/stack.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/type_check.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/thread.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/evp.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/aead.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/base64.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/cipher.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/digest.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/nid.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/BoringSSL/openssl/hmac.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/gRPC-Core/grpc/support/alloc.h

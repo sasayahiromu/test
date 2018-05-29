@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/Source/Util/FSTLogger.mm \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/Source/Util/FSTLogger.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/FirebaseCore/FIRLogger.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/FirebaseCore/FIRLoggerLevel.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/Source/API/FIRFirestore+Internal.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFirestore.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/auth/credentials_provider.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/include/firebase/firestore/firestore_errors.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/auth/token.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/auth/user.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/string_apple.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/strings/string_view.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/config.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/policy_checks.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/macros.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/port.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/attributes.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/optimization.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/firebase_assert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/log.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/statusor.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/status.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/statusor_internals.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/model/database_id.h

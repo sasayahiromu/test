@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/RNFSManager.m \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Target\ Support\ Files/RNFS/RNFS-prefix.pch \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/RNFSManager.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTBridgeModule.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTDefines.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTLog.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTAssert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTUtils.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/NSArray+Map.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/Downloader.h \
+  /Users/sasaya_h/Desktop/react/test/node_modules/react-native-fs/Uploader.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTEventDispatcher.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTBridge.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTBridgeDelegate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTFrameUpdate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTInvalidating.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/React/RCTImageLoader.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/React/RCTResizeMode.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTConvert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTAnimationType.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTBorderStyle.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTPointerEvents.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTURLRequestHandler.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/React/React/RCTURLRequestDelegate.h

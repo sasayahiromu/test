@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		nUW9ja1ERwW1qX3VbVteO61sKkM=
+		uPmSc3BBzCiTnIikTxSTfYpDJYo=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -719,9 +719,13 @@
 		<data>
 		Kj6ixJMHtndv37xT7AFZAQBgKic=
 		</data>
+		<key>GoogleService-Info.plist</key>
+		<data>
+		zM1josoPUeK+Ui9BXn78TTEIqEg=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		MaEbzSf+/hxd1j0QbZ7f2fyZi/s=
+		iqwIKzsssXGj3H7OJeNvqcd4lI8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -751,6 +755,14 @@
 		<data>
 		9fPtSJy88Zshp6Yx8i2blWC4qxY=
 		</data>
+		<key>gRPCCertificates.bundle/Info.plist</key>
+		<data>
+		ZQr2zVovTmO5qI6FmEFoHoggf7g=
+		</data>
+		<key>gRPCCertificates.bundle/roots.pem</key>
+		<data>
+		5NFWUZRVI0qqLVcZd3qjE3hlVc0=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -758,11 +770,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nUW9ja1ERwW1qX3VbVteO61sKkM=
+			uPmSc3BBzCiTnIikTxSTfYpDJYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7s3RN6uh8H7GEpN56LKZXsT7MIJ/0zrZ62qfdZATzDA=
+			X71rQj02GjOQ5vB3aWxkoLdn4oGudUhK5NNh6f7qRXk=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -2168,6 +2180,17 @@
 			DXQ4sOleVe+NnnezsCMWzD636T2Fz10D/+kZS6n5w8M=
 			</data>
 		</dict>
+		<key>GoogleService-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM1josoPUeK+Ui9BXn78TTEIqEg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZzLKXFZb5J9aeextRxN34vevMIkcHqDFzEhF3e34tJ8=
+			</data>
+		</dict>
 		<key>Ionicons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -2232,6 +2255,28 @@
 			<key>hash2</key>
 			<data>
 			FndQUXp/FfHSs52s90b3v8PUB5YaVUDJrsOLZoSLAVk=
+			</data>
+		</dict>
+		<key>gRPCCertificates.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZQr2zVovTmO5qI6FmEFoHoggf7g=
+			</data>
+			<key>hash2</key>
+			<data>
+			OnSGsWoXUky00YQnPTtxGeWKZ8j/9Iqnpa4a/nhMN98=
+			</data>
+		</dict>
+		<key>gRPCCertificates.bundle/roots.pem</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5NFWUZRVI0qqLVcZd3qjE3hlVc0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WgTeHMtYkCcLHLPJ1tUjW7Kze0FHs9skfJumMURZZmE=
 			</data>
 		</dict>
 	</dict>

@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/local/leveldb_transaction.cc \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/local/leveldb_transaction.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/strings/string_view.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/config.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/policy_checks.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/internal/throw_delegate.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/macros.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/port.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/attributes.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/base/optimization.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/db.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/iterator.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/slice.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/status.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/options.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/local/leveldb_key.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/model/document_key.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/model/resource_path.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/model/base_path.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/firebase_assert.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/util/log.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/core/src/firebase/firestore/model/types.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/memory/memory.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/FirebaseFirestore/Firestore/third_party/abseil-cpp/absl/meta/type_traits.h \
+  /Users/sasaya_h/Desktop/react/test/ios/Pods/Headers/Public/leveldb-library/leveldb/write_batch.h

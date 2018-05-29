@@ -34,6 +34,7 @@ export const addPlace = (placeName, location, image) => {
                             .then(res => {
                                 dispatch(uiStopLoading());
                                 console.log(res.id);
+                                dispatch(getPlaces());
                             })
                             .catch(err => {
                                 dispatch(uiStopLoading());
@@ -55,10 +56,6 @@ export const getPlaces = () => {
         this.ref = firebase.firestore().collection('places');
         this.ref
             .get()
-            .catch(err => {
-                alert('something wrong');
-                console.log(err)
-            })
             .then(querySnapshot => {
                 const places = [];
                 console.log(querySnapshot.docs[1])
@@ -73,6 +70,10 @@ export const getPlaces = () => {
                     });
                 }
                 dispatch(setPlaces(places));
+            })
+            .catch(err => {
+                alert('something wrong');
+                console.log(err)
             })
     };
 };
