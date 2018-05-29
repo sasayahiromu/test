@@ -3,17 +3,24 @@ import { View, Image, Button, StyleSheet, Text, Dimensions } from 'react-native'
 import MapView from 'react-native-maps';
 
 class PickLocation extends Component {
-  state = {
-    focusedLocation: {
-      latitude: 37.7900352,
-      longitude: -122.4013726,
-      latitudeDelta: 0.0122,
-      longitudeDelta:
-        Dimensions.get("window").width /
-        Dimensions.get("window").height *
-        0.0122
-    },
-    locationChosen: false
+
+  componentWillMount() {
+    this.reset();
+  }
+
+  reset = () => {
+    this.setState({
+      focusedLocation: {
+        latitude: 37.7900352,
+        longitude: -122.4013726,
+        latitudeDelta: 0.0122,
+        longitudeDelta:
+          Dimensions.get("window").width /
+          Dimensions.get("window").height *
+          0.0122
+      },
+      locationChosen: false
+    })
   }
 
   pickLocationHandler = event => {
@@ -39,7 +46,7 @@ class PickLocation extends Component {
     });
   }
 
-  getLocationHandler = () =>{
+  getLocationHandler = () => {
     navigator.geolocation.getCurrentPosition(pos => {
       const coordsEvent = {
         nativeEvent: {
@@ -51,19 +58,18 @@ class PickLocation extends Component {
       };
       this.pickLocationHandler(coordsEvent);
     },
-  err =>{
-    console.log(err);
-    alert("fetching the position failed, please pick one manually!")
-  })
+      err => {
+        console.log(err);
+        alert("fetching the position failed, please pick one manually!")
+      })
   }
 
   render() {
     let marker = null;
-
-    if(this.state.locationChosen){
-      marker = <MapView.Marker coordinate={this.state.focusedLocation}/>
+    if (this.state.locationChosen) {
+      marker = <MapView.Marker coordinate={this.state.focusedLocation} />
     }
-    
+
     return (
       <View style={styles.container}>
         <MapView
@@ -72,7 +78,7 @@ class PickLocation extends Component {
           onPress={this.pickLocationHandler}
           ref={ref => this.map = ref}
         >
-        {marker}
+          {marker}
         </MapView>
         <View style={styles.button}>
           <Button title="Locate Me" onPress={this.getLocationHandler} />

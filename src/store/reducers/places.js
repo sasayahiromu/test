@@ -1,18 +1,31 @@
 import {
-  SET_PLACES
+  SET_PLACES,
+  PLACE_ADDED,
+  START_ADD_PLACE
 } from "../actions/actionTypes";
 
 const initialState = {
-  places: []
+  places: [],
+  placeAdded: false
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case START_ADD_PLACE:
+    return {
+      ...state,
+      placeAdded: false
+    }
     case SET_PLACES:
       return {
         ...state,
         places: action.places
       };
+      case PLACE_ADDED:
+      return {
+        ...state,
+        placeAdded: true
+      }
     default:
       return state;
   }

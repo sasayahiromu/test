@@ -1,8 +1,14 @@
-import { SET_PLACES } from './actionTypes';
+import { SET_PLACES, PLACE_ADDED, START_ADD_PLACE } from './actionTypes';
 import firebase from 'react-native-firebase';
 import RNFS from 'react-native-fs';
 import UUIDGenerator from 'react-native-uuid-generator';
 import { uiStartLoading, uiStopLoading } from './index'
+
+export const startAddPlace = () => {
+    return {
+        type: START_ADD_PLACE
+    };
+}
 
 export const addPlace = (placeName, location, image) => {
     return dispatch => {
@@ -24,10 +30,12 @@ export const addPlace = (placeName, location, image) => {
                     .ref('img/' + uuid + '.jpg')
                     .putFile(path, metadata)
                     .then(res => {
+                        console.log(res)
                         const placeData = {
                             name: placeName,
                             location: location,
-                            image: res.downloadURL
+                            image: res.downloadURL,
+                            ref: res.ref
                         }
                         this.ref = firebase.firestore().collection('places')
                         this.ref.add(placeData)
@@ -35,6 +43,7 @@ export const addPlace = (placeName, location, image) => {
                                 dispatch(uiStopLoading());
                                 console.log(res.id);
                                 dispatch(getPlaces());
+                                dispatch(placeAdded())
                             })
                             .catch(err => {
                                 dispatch(uiStopLoading());
@@ -51,6 +60,12 @@ export const addPlace = (placeName, location, image) => {
     }
 };
 
+export const placeAdded = () => {
+    return {
+        type: PLACE_ADDED
+    }
+}
+
 export const getPlaces = () => {
     return dispatch => {
         this.ref = firebase.firestore().collection('places');
@@ -58,7 +73,6 @@ export const getPlaces = () => {
             .get()
             .then(querySnapshot => {
                 const places = [];
-                console.log(querySnapshot.docs[1])
                 for (let i in querySnapshot.docs) {
                     value = querySnapshot.docs[i].data();
                     places.push({
@@ -88,15 +102,23 @@ export const setPlaces = places => {
 export const deletePlace = (key) => {
     return dispatch => {
         this.ref = firebase.firestore().collection('places');
-        this.ref.doc(key)
-            .delete()
-            .catch(err => {
-                alert("Something went wrong, sorry :/")
-                console.log(err)
+        this.ref.doc(key).get()
+            .then(snapshot => {
+                console.log(snapshot.data().ref);
+                const ref = firebase.storage().ref(snapshot.data().ref);
+                ref.delete()
+                    .then(() => {
+                        //Delete in firestore
+                        this.ref.doc(key)
+                            .delete()
+                            .catch(err => {
+                                alert("Something went wrong, sorry :/")
+                                console.log(err)
+                            })
+                            .then(parsedRes => {
+                                dispatch(getPlaces());
+                            })
+                    })
             })
-            .then(parsedRes => {
-                console.log(parsedRes)
-            })
-        dispatch(getPlaces());
     };
 };
